@@ -126,6 +126,7 @@ class MyApplication extends JFrame{
 
 
         getContentPane().setLayout(new BorderLayout());
+        jp.setPreferredSize(new Dimension(canvas.getWidth(),80));
         getContentPane().add(jp, BorderLayout.NORTH);
 
         getContentPane().add(canvas, BorderLayout.CENTER);
